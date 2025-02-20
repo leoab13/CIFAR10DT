@@ -1,7 +1,7 @@
 from utils.imports import *
-from utils.trainer import train_and_evaluate
-from utils.data_loader import load_cifar10
-from utils.preprocessing import normalize_images
+from utils.trainer import *
+from utils.data_loader import *
+from utils.preprocessing import *
 
 X_train, y_train, X_test, y_test = load_cifar10()
 X_train, X_test = normalize_images(X_train, X_test)
