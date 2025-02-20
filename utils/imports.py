@@ -5,4 +5,5 @@ from sklearn.metrics import accuracy_score
 import tensorflow as tf
 import pickle
 import os
+import itertools
 
