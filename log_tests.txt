@@ -1,0 +1,26 @@
+max_depth=10, min_samples_split=2, criterion=gini -> Accuracy: 0.3064
+max_depth=10, min_samples_split=2, criterion=entropy -> Accuracy: 0.3060
+max_depth=10, min_samples_split=5, criterion=gini -> Accuracy: 0.3054
+max_depth=10, min_samples_split=5, criterion=entropy -> Accuracy: 0.3056
+max_depth=10, min_samples_split=10, criterion=gini -> Accuracy: 0.3054
+max_depth=10, min_samples_split=10, criterion=entropy -> Accuracy: 0.3060
+max_depth=20, min_samples_split=2, criterion=gini -> Accuracy: 0.2734
+max_depth=20, min_samples_split=2, criterion=entropy -> Accuracy: 0.2731
+max_depth=20, min_samples_split=5, criterion=gini -> Accuracy: 0.2743
+max_depth=20, min_samples_split=5, criterion=entropy -> Accuracy: 0.2786
+max_depth=20, min_samples_split=10, criterion=gini -> Accuracy: 0.2753
+max_depth=20, min_samples_split=10, criterion=entropy -> Accuracy: 0.2756
+max_depth=30, min_samples_split=2, criterion=gini -> Accuracy: 0.2718
+max_depth=30, min_samples_split=2, criterion=entropy -> Accuracy: 0.2684
+max_depth=30, min_samples_split=5, criterion=gini -> Accuracy: 0.2711
+max_depth=30, min_samples_split=5, criterion=entropy -> Accuracy: 0.2740
+max_depth=30, min_samples_split=10, criterion=gini -> Accuracy: 0.2728
+max_depth=30, min_samples_split=10, criterion=entropy -> Accuracy: 0.2713
+max_depth=None, min_samples_split=2, criterion=gini -> Accuracy: 0.2698
+max_depth=None, min_samples_split=2, criterion=entropy -> Accuracy: 0.2673
+max_depth=None, min_samples_split=5, criterion=gini -> Accuracy: 0.2631
+max_depth=None, min_samples_split=5, criterion=entropy -> Accuracy: 0.2681
+max_depth=None, min_samples_split=10, criterion=gini -> Accuracy: 0.2692
+max_depth=None, min_samples_split=10, criterion=entropy -> Accuracy: 0.2718
+
+Mejor resultado: max_depth=10, min_samples_split=2, criterion=gini -> Accuracy: 0.3064
